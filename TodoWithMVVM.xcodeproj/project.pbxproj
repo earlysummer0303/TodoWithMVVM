@@ -16,6 +16,8 @@
 		C3522DDB2A5C232600EDD135 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3522DDA2A5C232600EDD135 /* ListView.swift */; };
 		C3522DDD2A5C250100EDD135 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3522DDC2A5C250100EDD135 /* ListRowView.swift */; };
 		C3522DDF2A5C281100EDD135 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3522DDE2A5C281100EDD135 /* AddView.swift */; };
+		C3522DE22A5C3CDB00EDD135 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3522DE12A5C3CDB00EDD135 /* ItemModel.swift */; };
+		C3522DE52A5C4FD500EDD135 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3522DE42A5C4FD500EDD135 /* ListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		C3522DDA2A5C232600EDD135 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		C3522DDC2A5C250100EDD135 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
 		C3522DDE2A5C281100EDD135 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		C3522DE12A5C3CDB00EDD135 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		C3522DE42A5C4FD500EDD135 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 		C3522DAE2A5C221500EDD135 /* TodoWithMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				C3522DE02A5C3CB200EDD135 /* Models */,
+				C3522DE32A5C4FAC00EDD135 /* ViewModels */,
 				C3522DD92A5C231100EDD135 /* Views */,
 				C3522DAF2A5C221500EDD135 /* TodoWithMVVMApp.swift */,
 				C3522DB32A5C221600EDD135 /* Assets.xcassets */,
@@ -139,6 +145,22 @@
 				C3522DDE2A5C281100EDD135 /* AddView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		C3522DE02A5C3CB200EDD135 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C3522DE12A5C3CDB00EDD135 /* ItemModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C3522DE32A5C4FAC00EDD135 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C3522DE42A5C4FD500EDD135 /* ListViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,7 +293,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3522DE22A5C3CDB00EDD135 /* ItemModel.swift in Sources */,
 				C3522DDF2A5C281100EDD135 /* AddView.swift in Sources */,
+				C3522DE52A5C4FD500EDD135 /* ListViewModel.swift in Sources */,
 				C3522DB02A5C221500EDD135 /* TodoWithMVVMApp.swift in Sources */,
 				C3522DDB2A5C232600EDD135 /* ListView.swift in Sources */,
 				C3522DDD2A5C250100EDD135 /* ListRowView.swift in Sources */,

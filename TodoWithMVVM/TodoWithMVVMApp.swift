@@ -12,7 +12,8 @@ import SwiftUI
  
  Model - Data Point
  View - UI
- ViewModel - manages Models for View
+ ⭐️ViewModel - manages Models for View
+ ==> ViewModel이 MVVM 패턴에서의 가장 중추적인 파트.
  
  */
 
