@@ -23,7 +23,7 @@ struct ListRowView: View {
 
 struct ListRowView_Previews: PreviewProvider {
     // 여러개의 프리뷰 만드는 법
-    static var item1 = ItemModel(title: "첫번째꺼")
+    static var item1 = ItemModel(isCompleted: false, title: "첫번째꺼")
     static var item2 = ItemModel(isCompleted: true, title: "두번째꺼")
     static var previews: some View {
         Group {

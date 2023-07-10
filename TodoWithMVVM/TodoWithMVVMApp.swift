@@ -19,11 +19,16 @@ import SwiftUI
 
 @main
 struct TodoWithMVVMApp: App {
+    
+    @StateObject var listViewModel : ListViewModel = ListViewModel()
+    
     var body: some Scene {
         WindowGroup {
             NavigationView{
                 ListView()
             }
+            // 이 네비게이션 뷰가 EnvironmentObject로 listViewModel을 참조할 수 있도록 만들어주기.
+            .environmentObject(listViewModel)
         }
     }
 }
